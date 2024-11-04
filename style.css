@@ -1,0 +1,72 @@
+/* Main container styling for the entire inbox section */
+.gmail-container {
+  width: 400px;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Styling for the main title "ALL INBOXES" */
+.main-title {
+  color: #838383;
+  font-size: 12px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+/* Container styling for each individual inbox item */
+.inboxes-container {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin-left: 12px;
+  margin-right: 10px;
+  margin-bottom: 10px; /* Space between inbox items */
+}
+
+/* Profile image styling for each inbox item */
+.robot-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px; /* Circular profile picture */
+  object-fit: cover; /* Ensures image covers container area */
+  margin-right: 15px; /* Space between image and text */
+  margin-top: 15px;
+}
+
+/* Flex container for sender name and time of message */
+.profile-title {
+  display: flex;
+  justify-content: space-between; /* Space between name and time */
+}
+
+/* Container for email description */
+.inbox-description {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+/* Styling for sender name */
+.p-title {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* Styling for message time */
+.p-time {
+  color: #838383;
+  font-size: 14px;
+}
+
+/* Styling for the email's subject/title */
+.about-title {
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+/* Styling for the email's preview text */
+.description-title {
+  color: #838383;
+  margin-top: 3px;
+  font-size: 14px;
+}
